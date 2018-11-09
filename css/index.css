@@ -45,11 +45,17 @@ body{
 .azgc img{
     width:50px;
 }
-
-@keyframes donghua{
-    10%{
-  
-    }
+#back-to-top {          
+    position:fixed;
+    right:50px;
+    z-index:9;
+    width:42px;
+    height:550px;
+    background:url('../static/scroll.png');
+    transition:0.5s;  
+    cursor:pointer; 
+    display:none;    
+    top:-46px;
 }
 
 /* 头部 */

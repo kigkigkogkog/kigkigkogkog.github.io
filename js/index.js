@@ -18,4 +18,16 @@ window.onload = function () {
             }, 2000);
         }
     })
+
+    document.addEventListener("scroll",function(e) {
+        if(e.srcElement.scrollingElement.scrollTop > 200 ){
+            $('#back-to-top').css("display","block");
+        }else{
+            $('#back-to-top').css("display","none");
+        }
+    })
+
+    $('#back-to-top').click(function(){
+        window.scrollTo(0,0);
+    })
 }
