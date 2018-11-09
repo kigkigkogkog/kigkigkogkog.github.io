@@ -3,9 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <title>个人简历</title>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" href="./static/github.png">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+    <div id="thanks">感谢贵公司在百忙中抽空查看我的简历</div>
+
+    <header>
+        <div id="right">
+            <div class="main phone"><i class="iconfont">&#xe628;</i>15626257353</div>
+            <div class="main mail"><i class="iconfont">&#xe63e;</i>gloryinglin@foxmail.com</div>
+            <div class="main place"><i class="iconfont">&#xe619;</i>广东广州</div>
+        </div>
+        <div class="main name">林佳荣</div>
+        <div class="main job">求职意向：前端开发工程师</div>
+    </header>
+
+    <article>
+        <img id="photo" src="static/蓝2.jpg">
+        
+        <div id="base">基本资料</div>
+        <div id="base-content">
+            <div class="base-bottom">
+                <span>姓    名：林佳荣</span>
+                <span>出生年月：1997/02/16</span>
+                <span>性    别：男 </span>
+            </div>
+            <div class="base-bottom">
+                <span>求职意向：前端开发工程师</span>
+                <span>就读院校：广东工业大学</span>
+            </div>
+            <div>
+                <span>院    系：计算机学院</span>
+                <span>专    业：网络工程 </span>
+            </div>
+        </div>
+        
+        <div id="self">自我评价</div>
+        <p id="self-content">本人自强独立，待人友好，为人真诚谦虚、诚实守信。做事能吃苦耐劳，尽职尽责，积极进取，态度认真，有耐心。学习刻苦认真，成绩良好、诚恳、勤奋好学脚踏实地，沉稳坐得住。有良好抗压能力和强烈的责任感、集体荣誉感，勇于创新、以团队利益为重。</p>
+       
+        <div id="project">项目经验</div>
+        <div id="project-content">
+            <h3>基于WEB的ERP企业管理系统</h3>
+            <p class="project-p">使用HTML、CSS、javascript和PHP等编程语言以及使用mysql数据库软件开发的MVC架构的企业内部员工、产品、库存、销售管理的ERP管理系统。</p>
+            <p class="project-p">在开发过程中主要负责页面代码编写以及通过JS实现页面交互以及向后端PHP传输表单数据；同时参与通过PHP编写数据库操作语句来实现接收前端数据并对数据库进行增删查改的操作，并对查询的结果进行组织，形成浏览器可以实现的内容。</p>
+            <p class="project-p">该系统为网页形式，只需使用浏览器输入网址即可访问。</p>
+            <h3>水果商城小程序</h3>
+            <p class="project-p">参与小程序的编写与测试，使用微信小程序开发工具开发的在线购买水果的小程序，后台使用PHP进行数据交互，数据库使用mysql数据库。</p>
+        </div>
+
+        <div id="edu">教育背景</div>
+        <div id="edu-content">
+            <h5>广东工业大学</h5><h5>网络工程(本科)</h5><h5 id="you">2015-2019</h5>
+            <p class="title">专业技能：</p>
+            <p class="edu-p">熟悉HTML、CSS、javascript，熟悉JQuery、React等Web前端开发技术，熟悉页面架构和布局，了解Bootstrap、layui等框架和XML、JSON等数据接口及格式，了解AJAX，对后端技术的php及mysql数据库有过相关学习。</p>
+            <p class="title">办公技能：</p>
+            <p class="edu-p">掌握office软件使用技巧</p>
+            <p class="title">软件技能：</p>
+            <p class="edu-p">vscode和mysql等软件</p>
+            <p class="title">获得荣誉：</p>
+            <p class="edu-p">大学英语四级（CET4）：475分</p>
+        </div>
+    </article>
+
+    <footer>
+        <a href="https://github.com/kigkigkogkog/simple" target="_blank" title="学习React时的小项目">
+            <i class="iconfont">&#xf21a;</i>React项目
+        </a>
+        <a href="https://github.com/kigkigkogkog/memorandum" target="_blank" title="学习jQury时的小项目">
+            <i class="iconfont">&#xe655;</i>jQuery项目
+        </a>
+    </footer>
+
+    <div class="azgc">
+        <img src="static/azgc.jpg">
+    </div>
+
+    <script src="http://cdn.staticfile.org/jquery/2.0.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
