@@ -4,12 +4,12 @@ body{
 }
 @font-face {
     font-family: 'iconfont';  /* project id 911035 */
-    src: url('https://at.alicdn.com/t/font_911035_xajnzh42ys.eot');
-    src: url('https://at.alicdn.com/t/font_911035_xajnzh42ys.eot?#iefix') format('embedded-opentype'),
-    url('https://at.alicdn.com/t/font_911035_xajnzh42ys.woff') format('woff'),
-    url('https://at.alicdn.com/t/font_911035_xajnzh42ys.ttf') format('truetype'),
-    url('https://at.alicdn.com/t/font_911035_xajnzh42ys.svg#iconfont') format('svg');
-  }
+    src: url('https://at.alicdn.com/t/font_911035_suwp5spshg.eot');
+    src: url('https://at.alicdn.com/t/font_911035_suwp5spshg.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_911035_suwp5spshg.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_911035_suwp5spshg.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_911035_suwp5spshg.svg#iconfont') format('svg');
+}
 .iconfont{
     font-family:"iconfont";
     font-size:16px;
@@ -234,15 +234,15 @@ h5:first-child{
 footer{
     background-color:#456280;
     width:750px;
-    height:60px;
+    height:30px;
     margin:0 auto;
     position: relative;
     text-align:center;
 }
 a{
-    display: block;
     color:white;
     font-size:14px;
     text-decoration: none;
     line-height:28px;
+    margin-right:25px; 
 }
